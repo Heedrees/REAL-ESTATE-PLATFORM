@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Poppins;
+    display: flex;
+    height: 100vh;
+    background-color: #f4f4f9;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 42px 24px;
+    color: rgba(0, 0, 0, 0.29);
+    
+
+}
+
+.text {
+    font-weight: bold;
+    color: #000000af;
+}
+
+.cta {
+
+    background-color: #3C179A;
+    border-radius: 12px;
+    padding: 12px;
+    height: 48px;
+    width: 90px;
+
+}
+
+.cart {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+}
+
+.cart i {
+    margin-right: 10px;
+}
+
+.side-menu {
+    width: 300px;
+    background-color: #3C179A;
+    color: #ecf0f1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.profile {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.menu {
+    width: 100%;
+}
+
+.menu-item {
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.menu-item:hover {
+    background-color: #d0bffe4c;
+}
+
+.menu-item.active {
+    background-color: #ffffff;
+    color: #3C179A;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.menu-item i {
+    margin-right: 15px;
+}
+
+img {
+    width: 200px;
+    height: 36px;
+
+}
+
+.logo {
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 200px;
+}
+
+.container {
+
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+
+}
+
+.search {
+
+    padding-right: 24px;
+    padding-top: 30px;
+}
+
+input {
+    height: 50px;
+    width: 300px;
+    padding: 12px;
+    border-radius: 12px;
+    border: 2px solid #3c179a55;
+}
+
+.butn {
+    display: flex;
+    align-items: flex-end;
+    padding: 24px;
+
+}
+
+.cta2 {
+
+    background-color: #3C179A;
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width: 162px;
+    margin-right: 24px;
+
+}
+
+.cta3 {
+
+    background-color: #3C179A;
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width: 115px;
+
+}
+
+.filter {
+    display: flex;
+    padding: 24px;
+    padding-top: 36px;
+
+}
+
+.cta4 {
+
+    background-color: #3C179A;
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width: 250px;
+    margin-right: 0;
+    text-align: center;
+
+}
+
+.cta5 {
+
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width: 115px;
+    margin-right: 0;
+    text-align: center;
+
+}
+
+.cta5 a {
+    color: #000000d2;
+    text-decoration: none;
+}
+
+.cta6 {
+
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width: 220px;
+    text-align: center;
+
+}
+
+.cta6 a {
+    color: #000000d2;
+    text-decoration: none;
+}
+
+.Cards {
+    padding: 24px;
+}
+
+.box1 {
+
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    height: 500px;
+    width: 400px;
+
+}
+
+.box1 .image1 img {
+
+    width: 360px;
+    height: 200px;
+}
+
+.box1 .descript1 {
+    padding-top: 20px;
+    padding-bottom: 36px;
+}
+
+.box1 .descript1 h3 {
+    font-weight: 600;
+}
+
+.box1 .detail1 .room1 {
+   
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns, each taking equal space */
+    grid-gap: 20px; /* Space between grid items */
+    width: 80%;
+    max-width: 600px;
+    color: #000000b6;
+  
+}
+
+.foot1 {
+    display: flex;
+    align-items: center;
+    margin-top: 48px;
+
+}
+
+.foot1 .btn1 {
+
+    border-radius: 12px;
+    padding: 12px;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    background-color: #3C179A;
+    margin-left: 131px;
+
+}
+
+.Cards {
+    
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 2 columns, each taking equal space */
+    grid-gap: 48px; /* Space between grid items */
+    width: 80%;
+    max-width: 600px;
+    
+
+}
+

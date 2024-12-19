@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification Code</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="auth.css">
+    </link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="container-login-lvc">
+        <header class="heading">
+            <img src="../logo.png">
+        </header>
+        <div class="login-page-lvc">
+            <div class="verification-lvc">
+                <h2 class="login-verification">Verification Code</h2>
+                <button class="go-back-lvc"><a class="go-back-lvc-redirection" href="./"><span
+                            class="arrow-icon-lvc fa-solid fa-arrow-left">
+                        </span>Back</a></button>
+
+            </div>
+            <p class="instruction-lvc">Kindly provide the code sent to your mail</p>
+
+            <div class="verification-form">
+                <form class="form-lvc" action="./" method="get">
+
+                    <p class="enter-code">Enter Code</p>
+                    <input type="text" maxlength="1" id="code-1" name="code-1">
+                    <input type="text" maxlength="1" id="code-2" name="code-2">
+                    <input type="text" maxlength="1" id="code-3" name="code-3">
+                    <input type="text" maxlength="1" id="code-4" name="code-4">
+                    <input type="text" maxlength="1" id="code-5" name="code-5">
+                    <input type="text" maxlength="1" id="code-6" name="code-6">
+                    <br>
+                    <button class="resend-code">Resend Code</button>
+                    <button type="button" onclick="validateLogin()" class="verify">Verify</button>
+                    <p id="response"></p>
+                </form>
+            </div>
+
+        </div>
+    </div>
+    <script src="../app.js"></script>
+</body>
+
+</html>

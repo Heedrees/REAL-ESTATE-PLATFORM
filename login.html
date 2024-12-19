@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="login.css">
+    </link>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div class="container-login1">
+        <header class="heading">
+            <img src="logo.png">
+        </header>
+        <div class="login-page1">
+            <div class="greeting-head">
+                <h2 class="greeting">Welcome Back<span class="hi-icon fa-solid fa-hands-clapping"></span></h2>
+                <button class="go-back"><a class="go-back-redirection" href="./"><span
+                            class="arrow-icon fa-solid fa-arrow-left">
+                        </span>Back</a></button>
+
+
+            </div>
+            <p class="instruction">Kindly provide your credentials you used when <br>signing up</p>
+
+            <div class="login-form">
+                <form class="form" action="auth.html" method="get">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="Email" placeholder="e.g scrumfive@gmail.com" required>
+                    <label for="password">Password</label>
+                    <input id="password" name="pswrd" type="Password" placeholder="5 to 10 characters" required
+                        pattern=".{5,10}" title="5 to 10 characters">
+                    <p><a class="forgot-password" href="./">Forgot Password?</a></p>
+                    <button class="login">Login</button>
+
+                </form>
+            </div>
+
+        </div>
+        <script src="../app.js"></script>
+</body>
+
+</html>

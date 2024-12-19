@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Poppins;
+}
+
+.container-signup {
+    display: grid;
+    background-color: #f7f6ff;
+    width: 100vw;
+    margin: auto;
+    padding: auto;
+    font-size: 16px;
+    overflow: auto;
+}
+
+.signup-page {
+    background-color: #fff;
+    margin: auto;
+    padding: 2.5rem 1.5rem;
+    display: grid;
+    justify-content: center;
+    width: 35%;
+    border-radius: 1rem;
+    overflow: auto;
+
+}
+
+.sign-up {
+    display: flex;
+    justify-content: space-between;
+}
+
+.signup-text {
+    color: #3C179A;
+}
+
+.go-back-sup {
+    background-color: #d40027;
+    border: 1px solid #d40027;
+    border-radius: 0.5rem;
+    padding: 0 6px;
+    cursor: pointer;
+}
+
+.go-back-sup:hover {
+    background-color: #b30928;
+    transition: ease-in 0.2s;
+}
+
+.go-back-sup-redirection {
+    text-decoration: none;
+    color: #fff;
+}
+
+.arrow-icon-sup {
+    margin-right: 5px;
+}
+
+.instruction-sup {
+    margin: 0.7rem 0 2.5rem 0;
+}
+
+.signup-form input[type=email],
+.signup-form input[type=password],
+.signup-form input[type=text],
+.signup-form input[type=tel] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #f7f6ff;
+    background-color: #f7f6ff;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+
+
+.signup-btn {
+    color: #3C179A;
+    margin: 2rem 0 0 0;
+    padding: 0.5rem 3.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #3C179A;
+    background-color: #3C179A;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.signup-btn:hover {
+    color: #000;
+    background-color: #7441f5;
+    transition: ease-in 0.2s;
+}
+
+.signup-form input[type=checkbox] {
+    margin: 2rem 0 0 0;
+    width: 2rem;
+    background-color: red;
+}
+
+input:valid {
+    color: rgb(12, 140, 40);
+}
+
+input:invalid {
+    color: red;
+}

@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container-login-lvc {
+    display: grid;
+    background-color: #f7f6ff;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: auto;
+    font-size: 16px;
+}
+
+
+.login-page-lvc {
+    background-color: #fff;
+    margin: auto;
+    padding: 2.5rem 1.0rem;
+    display: grid;
+    justify-content: center;
+    width: 35%;
+    border-radius: 1rem;
+
+}
+
+.verification-lvc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-verification {
+    color: #3C179A;
+}
+
+.verify {
+    color: #3C179A;
+    margin: 2rem 0 0 0;
+    padding: 0.5rem 3.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #3C179A;
+    background-color: #3C179A;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.verify:hover {
+    color: #fff;
+    background-color: #7441f5;
+    transition: ease-in 0.2s;
+}
+
+#response {
+    font-size: 14px;
+}
+
+
+.go-back-lvc {
+    background-color: #d40027;
+    border: 1px solid #d40027;
+    border-radius: 0.5rem;
+    padding: 0 8px;
+}
+
+.go-back-lvc:hover {
+    background-color: #b30928;
+    transition: ease-in 0.2s;
+}
+
+.go-back-lvc-redirection {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
+.arrow-icon-lvc {
+    margin-right: 5px;
+}
+
+.instruction-lvc {
+    margin: 0.7rem 0 4rem 0;
+}
+
+.resend-code {
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+    border: none;
+    background-color: #fff;
+}
+
+.resend-code:hover {
+    color: #3C179A;
+}
+
+.verification-form .form-lvc input[type=text] {
+    width: 13.5%;
+    height: 10%;
+    line-height: 10%;
+    padding: 10px;
+    margin: 8px 2px;
+    border: 1px solid #f7f6ff;
+    background-color: #f7f6ff;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    list-style: none;
+}

@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    font-family: Poppins, sans-serif;
+}
+
+.container-login1 {
+    display: grid;
+    background-color: #f7f6ff;
+    width: 100vw;
+    height: 100vh;
+    margin: auto;
+    padding: auto;
+    font-size: 16px;
+}
+
+.login-page1 {
+    background-color: #fff;
+    margin: auto;
+    padding: 2.5rem 1.5rem;
+    display: grid;
+    justify-content: center;
+    width: 35%;
+    border-radius: 1rem;
+    min-height: 419.2px;
+
+}
+
+.greeting-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.greeting {
+    color: #3C179A;
+}
+
+.login {
+    color: #3C179A;
+    margin: 2rem 0 0 0;
+    padding: 0.5rem 3.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #3C179A;
+    background-color: #3C179A;
+    color: #fff;
+    display: block;
+    margin-left: auto;
+    margin-right: 0;
+    cursor: pointer;
+}
+
+.login:hover {
+    color: #000;
+    background-color: #7441f5;
+    transition: ease-in 0.2s;
+}
+
+.go-back {
+    background-color: #d40027;
+    border: 1px solid #d40027;
+    border-radius: 0.5rem;
+    padding: 0 8px;
+    cursor: pointer;
+}
+
+.go-back:hover {
+    background-color: #b30928;
+    transition: ease-in 0.2s;
+}
+
+.go-back-redirection {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+.login-form .form input[type=email],
+.login-form .form input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    display: inline-block;
+    border: 1px solid #f7f6ff;
+    background-color: #f7f6ff;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+}
+
+.house-icon {
+    margin-right: 20px;
+}
+
+.hi-icon {
+    margin-left: 8px;
+}
+
+.arrow-icon {
+    margin-right: 5px;
+}
+
+.instruction {
+    margin: 0.7rem 0 2.5rem 0;
+}
+
+.forgot-password {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 10px;
+}
+
+input:valid {
+    color: rgb(12, 140, 40);
+    }
+
+input:invalid {
+    color: red;
+    }
