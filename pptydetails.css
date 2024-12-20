@@ -296,3 +296,12 @@ margin-right: 8px;
     border-radius: 50%;
     background-color: grey;
 }
+.heading a{
+    text-decoration: none;
+
+}
+
+.heading a:hover{
+    background-color: #fff;
+
+}
