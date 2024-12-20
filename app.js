@@ -14,8 +14,7 @@ function validateLogin() {
 
     if (firstCode === "4" && secondCode === "5" && thirdCode === "6" && 
         fourthCode === "7" && fifthCode === "8" && sixthCode === "9") {
-        response.style.color = "green";
-        response.textContent = "Login successful!";
+        window.location="Dashboard.html";
 
     } 
     else {
